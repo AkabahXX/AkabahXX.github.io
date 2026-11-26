@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The student portfolio of Akabah David Chukwuka, an ICT student.">
+  <title>Akabah David Chukwuka | Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">ADC<span>.</span></a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">STUDENT PORTFOLIO</p>
+        <h1>Hello, I'm <span>Akabah David Chukwuka</span></h1>
+        <p class="hero-intro">
+          An Information and Communication Technology (ICT) student with an
+          interest in technology, computer systems, networking and software development.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View My Projects</a>
+          <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Student initials">
+        <div class="initials">ADC</div>
+        <p>LEARN · BUILD · GROW</p>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About Me</h2>
+        <p>
+          My name is Akabah David Chukwuka. I am an ICT student who enjoys
+          learning how technology works and how it can solve everyday problems.
+          I am developing my knowledge in web development, programming,
+          database management and computer networking. I believe in continuous
+          learning and improving my practical skills.
+        </p>
+      </div>
+    </section>
+
+    <section class="section soft" id="education">
+      <div class="container">
+        <p class="eyebrow">MY BACKGROUND</p>
+        <h2>Education</h2>
+        <div class="info-card">
+          <h3>Information and Communication Technology (ICT)</h3>
+          <p><strong>Institution:</strong> UNIVERSITY OF DELTA, AGBOR (UNIDEL)</p>
+          <p><strong>Level:</strong> 300 Level</p>
+          <p class="muted">Add your department, campus or other education details here if required.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="eyebrow">WHAT I'M LEARNING</p>
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">Computer Literacy</div>
+          <div class="skill">Web Development</div>
+          <div class="skill">Programming</div>
+          <div class="skill">Database Management</div>
+          <div class="skill">Computer Networking</div>
+          <div class="skill">ICT Automation</div>
+        </div>
+        <p class="muted small">These are learning areas. Update this list to reflect your actual skills and experience.</p>
+      </div>
+    </section>
+
+    <section class="section soft" id="projects">
+      <div class="container">
+        <p class="eyebrow">MY WORK</p>
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <span class="project-number">01</span>
+            <h3>Society/Estate Management System</h3>
+            <p>A database project concept for managing residents, houses, maintenance fees, visitor logs and complaints.</p>
+          </article>
+          <article class="project-card">
+            <span class="project-number">02</span>
+            <h3>Student Portfolio Website</h3>
+            <p>A personal website created to present my background, education, skills and project work.</p>
+          </article>
+          <article class="project-card">
+            <span class="project-number">03</span>
+            <h3>Data Communication Simulation</h3>
+            <p>A learning project exploring network devices, traffic and basic data communication observations.</p>
+          </article>
+        </div>
+        <p class="muted small">Only describe a project as completed if you have actually completed it. You can change these descriptions to show your progress.</p>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container narrow">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Contact Me</h2>
+        <p>If you would like to get in touch about my learning or projects, you can contact me by email.</p>
+        <!-- Use this email address to contact me. -->
+        <a class="button primary" href="mailto:davidakabah@gmail.com">Email Me</a>
+        <p class="muted small">You can reach me at davidakabah@gmail.com.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Akabah David Chukwuka. Student Portfolio.</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
